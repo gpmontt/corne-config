@@ -14,7 +14,7 @@
 
 &i2c0_default { bias-pull-up; };
 
-&led_strip { chain-length = <27>; };
+//&led_strip { chain-length = <27>; };
 
 / {
     behaviors {
@@ -28,8 +28,7 @@
             bindings = <&kp>, <&kp>;
         };
     };
-
-    chosen { zmk,underglow = &led_strip; };
+//chosen { zmk,underglow = &led_strip; };
 
     keymap {
         compatible = "zmk,keymap";
