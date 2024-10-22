@@ -62,7 +62,7 @@
 
         config {
             bindings = <
-&trans             &trans      &trans      &trans  &trans           &out OUT_TOG       &trans  &trans        &trans           &trans  &trans  &trans
+&trans             &studio_unlock      &trans      &trans  &trans           &out OUT_TOG       &trans  &trans        &trans           &trans  &studio_unlock  &trans
 &bt BT_CLR         &bt BT_PRV  &bt BT_NXT  &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF    &trans  &trans        &trans           &trans  &trans  &trans
 &ext_power EP_TOG  &trans      &trans      &trans  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI    &trans  &trans        &trans           &trans  &trans  &trans
                                            &trans  &trans           &trans             &trans  &kp C_VOL_DN  &kp C_VOLUME_UP
