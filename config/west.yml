@@ -10,7 +10,7 @@ manifest:
       url-base: https://github.com/gpmontt
   projects:
     - name: zmk
-      remote: gpmontt
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
   self:
