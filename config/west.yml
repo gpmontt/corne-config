@@ -5,7 +5,11 @@ manifest:
     - name: gpmontt
       url-base: http://github.com/gpmontt 
     # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
+    - name: gpmontt
+      url-base: https://github.com/gpmontt
   projects:
     - name: zmk
       remote: zmkfirmware
