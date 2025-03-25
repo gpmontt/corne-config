@@ -12,6 +12,15 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        rese_l {
+            bindings = <&sys_reset>;
+            key-positions = <0 5>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
