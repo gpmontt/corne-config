@@ -18,7 +18,7 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: corne_left
     snippet: studio-rpc-usb-uart
     oled:
@@ -32,5 +32,16 @@ include:
       enable: true
   - board: nice_nano_v2
     shield: corne_right
+  # - board: nice_nano
+  #   shield: corne_left
+  #   oled:
+  #     driver: ssd1306
+  #     interface: i2c
+  #     address: 0x3C
+  #     rotation: 0
+  #   i2c:
+  #     pull-up: internal
+  #   nice_view:
+  #     enable: true
   - board: nice_nano_v2
     shield: settings_reset
