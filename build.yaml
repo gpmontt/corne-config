@@ -26,6 +26,8 @@ include:
       interface: i2c
       address: 0x3C
       rotation: 0
+    i2c:
+      pull-up: internal
     nice_view:
       enable: true
   - board: nice_nano_v2
